@@ -1,0 +1,1 @@
+import{s as a}from"../chunks/bootstrap.js";import{A as n,a as o}from"../chunks/AdminNavigationBar.js";import"../chunks/vue-router.js";app.component("admin-navigation-bar",n);app.component("agent-navigation-bar",o);new Vue({el:"#navigation-container",store:a});

@@ -1,0 +1,6 @@
+exclude_paths:
+  - "**/tests/**"
+  - "**/Tests/**"
+  - "vendor/**"
+  - "**/migrations/**"
+  - "public/js/skins/**"

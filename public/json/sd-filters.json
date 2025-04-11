@@ -1,0 +1,755 @@
+{
+  "1": [
+
+    {
+      "section" : [
+
+        {
+          "name": "problem_ids",
+          "url": "/service-desk/api/dependency/problems",
+          "label": "problems"
+        },
+
+        {
+          "name": "dept_ids",
+          "url": "api/dependency/departments",
+          "label": "departments"
+        },
+
+        {
+          "name": "impact_ids",
+          "url": "/service-desk/api/dependency/impacts",
+          "label": "impact_type"
+        }
+      ]
+    },
+    {
+      "section" : [
+
+        {
+          "name": "problem_statuses",
+          "url": "/service-desk/api/status/list?module=1",
+          "label": "status"
+        },
+
+        {
+          "name": "location_ids",
+          "url": "api/dependency/locations",
+          "label": "location"
+        },
+
+        {
+          "name": "priority_ids",
+          "url": "api/dependency/priorities",
+          "label": "priority"
+        }
+      ]
+    },
+    {
+      "section" : [
+
+        {
+          "name": "assigned_ids",
+          "url": "api/dependency/agents?meta=true",
+          "label": "assigned"
+        },
+
+        {
+          "name": "asset_ids",
+          "url": "/service-desk/api/asset-list?meta=true",
+          "label": "assets"
+        },
+
+        {
+          "name": "ticket_ids",
+          "url": "api/dependency/tickets",
+          "label": "tickets"
+        }
+      ]
+    },
+    {
+      "section" : [
+
+        {
+          "name": "requester_ids",
+          "url": "/api/dependency/users?meta=true",
+          "label": "requester"
+        },
+
+        {
+          "name": "change_ids",
+          "url": "/service-desk/api/dependency/changes",
+          "label": "changes"
+        },
+
+        {
+          "name": "created_at",
+          "type": "date",
+          "label": ["created_at", "created_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        }
+      ]
+    },
+    {
+      "section" : [
+        {
+          "name": "updated_at",
+          "type": "date",
+          "label": ["updated_at", "updated_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        }
+      ]
+    },
+    {
+      "section" : []
+    }
+  ],
+  "2": [
+
+    {
+      "section" : [
+
+        {
+          "name": "change_ids",
+          "url": "/service-desk/api/dependency/changes?meta=true",
+          "label": "changes",
+          "isCustom" : false
+        },
+        {
+          "name": "department_ids",
+          "url": "/api/dependency/departments",
+          "label": "departments",
+          "isCustom" : false
+        },
+        {
+          "name": "team_ids",
+          "url": "/api/dependency/teams",
+          "label": "teams",
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section" : [
+
+        {
+          "name": "requester_ids",
+          "url": "/api/dependency/users?meta=true",
+          "label": "requester",
+          "isCustom" : false
+        },
+        {
+          "name": "status_ids",
+          "url": "/service-desk/api/status/list?module=2",
+          "label": "status",
+          "isCustom" : false
+        },
+        {
+          "name": "priority_ids",
+          "url": "/service-desk/api/dependency/change_priorities",
+          "label": "priority",
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+
+      "section" : [
+        {
+          "name": "change_type_ids",
+          "url": "/service-desk/api/dependency/change_types",
+          "label": "change_type",
+          "isCustom" : false
+        },
+        {
+          "name": "impact_ids",
+          "url": "/service-desk/api/dependency/impacts",
+          "label": "impact",
+          "isCustom" : false
+        },
+        {
+          "name": "location_ids",
+          "url": "/api/dependency/locations",
+          "label": "location",
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section" : [
+        {
+          "name": "asset_ids",
+          "url": "/service-desk/api/asset-list?meta=true",
+          "label": "assets",
+          "isCustom" : false
+        },
+        {
+          "name": "release_ids",
+          "url": "/service-desk/api/dependency/releases",
+          "label": "releases",
+          "isCustom" : false
+        },
+        {
+          "name": "ticket_ids",
+          "url": "/api/dependency/tickets",
+          "label": "tickets",
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section" : [
+        {
+          "name": "problem_ids",
+          "url": "/service-desk/api/dependency/problems",
+          "label": "problems",
+          "isCustom" : false
+        },
+
+        {
+          "name": "assignee-ids",
+          "url":  "/api/dependency/agents",
+          "label": "Agent"
+        },
+
+        {
+          "name": "pending_approvers",
+          "url":  "/api/dependency/users",
+          "label": "Pending Approvers"
+        }
+      ]
+    },
+    {
+      "section" : [
+        {
+          "name": "created_at",
+          "type": "date",
+          "label": ["created_at", "created_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true,
+          "isCustom" : false
+        },
+        {
+          "name": "updated_at",
+          "type": "date",
+          "label": ["updated_at", "updated_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "pickers" : true,
+          "range" : true,
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section" : []
+    }
+  ],
+  "4": [
+
+    {
+      "section": [
+        {
+          "name": "asset_ids",
+          "url": "/service-desk/api/dependency/assets",
+          "label": "assets",
+          "isCustom": false
+        },
+
+        {
+          "name": "problem_ids",
+          "url": "/service-desk/api/dependency/problems",
+          "label": "problems",
+          "isCustom": false
+        },
+
+        {
+          "name": "change_ids",
+          "url": "/service-desk/api/dependency/changes",
+          "label": "changes",
+          "isCustom": false
+        }
+      ]
+    },
+
+    {
+      "section": [
+
+        {
+          "name": "release_ids",
+          "url": "/service-desk/api/dependency/releases",
+          "label": "releases",
+          "isCustom": false
+        },
+
+        {
+          "name": "contract_ids",
+          "url": "/service-desk/api/dependency/contracts",
+          "label": "contracts",
+          "isCustom": false
+        },
+
+        {
+          "name": "asset_type_ids",
+          "url": "/service-desk/api/dependency/asset_types",
+          "label": "asset_types",
+          "isCustom": false
+        }
+      ]
+    },
+
+    {
+      "section": [
+
+        {
+          "name": "used_by_ids",
+          "url": "api/dependency/users?meta=true",
+          "label": "used_by",
+          "isCustom": false
+        },
+
+        {
+          "name": "managed_by_ids",
+          "url": "api/dependency/agents?meta=true",
+          "label": "managed_by",
+          "isCustom": false
+        },
+
+        {
+          "name": "location_ids",
+          "url": "api/dependency/locations",
+          "label": "location",
+          "isCustom": false
+        }
+      ]
+    },
+
+    {
+      "section": [
+
+        {
+          "name": "dept_ids",
+          "url": "api/dependency/departments",
+          "label": "departments",
+          "isCustom": false
+        },
+
+        {
+          "name": "org_ids",
+          "url": "api/dependency/organizations",
+          "label": "organizations",
+          "isCustom": false
+        },
+
+        {
+          "name": "product_ids",
+          "url": "/service-desk/api/dependency/products",
+          "label": "products",
+          "isCustom": false
+        }
+      ]
+    },
+
+    {
+      "section": [
+
+        {
+          "name": "assigned_on",
+          "type": "date",
+          "label": ["assigned_on", "assigned_within_last"],
+          "timeOptions": {"start": "00:00", "step": "00:30", "end": "23:30"},
+          "isCustom": false,
+          "range": true
+        },
+
+        {
+          "name": "created_at",
+          "type": "date",
+          "label": ["created_at", "created_within_last"],
+          "timeOptions": {"start": "00:00", "step": "00:30", "end": "23:30"},
+          "isCustom": false,
+          "range": true
+        },
+
+        {
+          "name": "updated_at",
+          "type": "date",
+          "label": ["updated_at", "updated_within_last"],
+          "timeOptions": {"start": "00:00", "step": "00:30", "end": "23:30"},
+          "isCustom": false,
+          "range": true
+        }
+      ]
+    },
+
+    {
+      "section": [
+        {
+          "name": "impact_type_ids",
+          "url": "/service-desk/api/dependency/impacts",
+          "label": "impact_types",
+          "isCustom": false
+        },
+        {
+          "name": "ticket_ids",
+          "url": "/api/dependency/tickets",
+          "label": "ticket",
+          "isCustom": false
+        },
+        {
+          "name": "asset_status_ids",
+          "url": "/service-desk/api/status/list?module=4",
+          "label": "asset_status",
+          "isCustom": false
+        }
+      ]
+    },
+
+    {
+      "section": [
+        {
+          "name": "depreciation_ids",
+          "url": "/service-desk/api/dependency/depreciation",
+          "label": "Depreciation",
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section": []
+    }
+  ],
+  "3": [
+    {
+      "section" : [
+
+        {
+          "name": "release_ids",
+          "url": "/service-desk/api/dependency/releases",
+          "label": "releases"
+        },
+
+        {
+          "name": "release_statuses",
+          "url": "/service-desk/api/status/list?module=3",
+          "label": "status"
+        },
+
+        {
+          "name": "location_ids",
+          "url": "/api/dependency/locations",
+          "label": "location"
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "priority_ids",
+          "url": "/service-desk/api/dependency/release_priorities",
+          "label": "priority"
+        },
+
+        {
+          "name": "release_type_ids",
+          "url": "/service-desk/api/dependency/release_types",
+          "label": "release_type"
+        },
+
+        {
+          "name": "asset_ids",
+          "url": "/service-desk/api/dependency/assets",
+          "label": "assets"
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "change_ids",
+          "url": "/service-desk/api/dependency/changes",
+          "label": "changes"
+        },
+
+        {
+          "name": "planned_start_date",
+          "type": "date",
+          "label": ["planned_start_date", "planned_start_date_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        },
+
+        {
+          "name": "planned_end_date",
+          "type": "date",
+          "label": ["planned_end_date", "planned_end_date_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "created_at",
+          "type": "date",
+          "label": ["created_at", "created_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        },
+
+        {
+          "name": "updated_at",
+          "type": "date",
+          "label": ["updated_at", "updated_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        }
+      ]
+    },
+
+    {
+      "section" : []
+    }
+  ],
+  "5": [
+    {
+      "section" : [
+
+        {
+          "name": "contract_ids",
+          "url": "/service-desk/api/dependency/contracts",
+          "label": "contracts"
+        },
+
+        {
+          "name": "contract_type_ids",
+          "url": "/service-desk/api/dependency/contract_types",
+          "label": "contract_type"
+        },
+
+        {
+          "name": "approver_ids",
+          "url": "/api/dependency/agents?meta=true",
+          "label": "approver"
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "vendor_ids",
+          "url": "/service-desk/api/dependency/vendors",
+          "label": "vendors"
+        },
+
+        {
+          "name": "license_type_ids",
+          "url": "/service-desk/api/dependency/license_types",
+          "label": "license_type"
+        },
+
+        {
+          "name": "contract_statuses",
+          "url": "/service-desk/api/status/list?module=5",
+          "label": "status"
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "renewal_status_ids",
+          "url": "/service-desk/api/dependency/contract_renewal_statuses",
+          "label": "renewal_status"
+        },
+
+        {
+          "name": "owner_ids",
+          "url": "/api/dependency/agents",
+          "label": "owner"
+        },
+
+        {
+          "name": "asset_ids",
+          "url": "/service-desk/api/dependency/assets",
+          "label": "assets"
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "notify_agent_ids",
+          "url": "/api/dependency/agents?meta=true",
+          "label": "notify_agents"
+        },
+
+        {
+          "name": "cost",
+          "label": "cost",
+          "type": "number"
+        },
+
+        {
+          "name": "notify_in_days",
+          "label": "notify_before",
+          "type": "number"
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "contract_start_date",
+          "type": "date",
+          "label": ["contract_start_date", "contract_start_date_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        },
+
+        {
+          "name": "contract_end_date",
+          "type": "date",
+          "label": ["contract_end_date", "contract_end_date_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        },
+
+        {
+          "name": "created_at",
+          "type": "date",
+          "label": ["created_at", "created_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "updated_at",
+          "type": "date",
+          "label": ["updated_at", "updated_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true
+        }
+      ]
+    },
+
+    {
+      "section" : []
+    }
+  ],
+  "7": [
+
+    {
+      "section" : [
+        {
+          "name": "software_licenses_ids",
+          "url": "service-desk/api/dependency/softwarelicense",
+          "label": "Software License",
+          "isCustom" : false
+        },
+
+        {
+          "name": "license_type",
+          "url": "/service-desk/api/dependency/license_types",
+          "label": "License type",
+          "isCustom" : false
+        },
+        {
+          "name": "depreciation_ids",
+          "url": "/service-desk/api/dependency/depreciation",
+          "label": "Depreciation",
+          "isCustom" : false
+        }
+      ]
+    },
+
+    {
+      "section" : [
+        {
+          "name": "vendor_ids",
+          "url": "/service-desk/api/dependency/vendors",
+          "label": "Vendor",
+          "isCustom" : false
+        },
+
+        {
+          "name": "manufacturer_ids",
+          "url": "/service-desk/api/dependency/manufacturer",
+          "label": "Manufacturer",
+          "isCustom" : false
+        },
+        {
+          "name": "org_ids",
+          "url": "/api/dependency/organizations",
+          "label": "Organization",
+          "isCustom" : false
+        }
+      ]
+    },
+
+    {
+      "section" : [
+
+        {
+          "name": "asset_ids",
+          "url": "service-desk/api/dependency/assets",
+          "label": "Assets",
+          "isCustom" : false
+        },
+        {
+          "name": "used_by_ids",
+          "url": "api/dependency/users?meta=true",
+          "label": "Users",
+          "isCustom" : false
+        },
+
+        {
+
+          "name": "created_at",
+          "type": "date",
+          "label": ["created_at", "created_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "range" : true,
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section" : [
+        {
+          "name": "updated_at",
+          "type": "date",
+          "label": ["updated_at", "updated_within_last"],
+          "timeOptions":{  "start": "00:00", "step": "00:30",  "end": "23:30" },
+          "pickers" : true,
+          "range" : true,
+          "isCustom" : false
+        }
+      ]
+    },
+    {
+      "section" : []
+    }
+  ]
+}

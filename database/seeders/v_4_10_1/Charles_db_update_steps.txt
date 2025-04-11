@@ -1,0 +1,42 @@
+SELECT TABLE_NAME, ENGINE FROM   information_schema.TABLES WHERE  TABLE_SCHEMA = 'faveo_prod';
+
+Anydesk
+437 389 963 )  Pass:  Zapato11
+
+SSH 172.22.1.21
+
+Charles update process
+> ensure tables are being migrated in same DB engine
+> run php artisan migrate
+> update v_4_4_0 seeder for attachment correction update copyCannedAttachmentsToNewDisk
+  change updating statements to 
+
+				Attachment::whereId($attachment->id)->update([
+                    'name' => $newPath,
+                    'path' => $path,
+                    'driver' => 'system'
+                ]);
+> continue seeding
+> before v_4_6_0 seeder run in database to clean the defected helptopics
+update help_topic set linked_departments = '11,15,16,17' where id =  52;
+update help_topic set linked_departments = '11,15,16,17' where id =  53;
+update help_topic set linked_departments = '11,15,16,17' where id =  54;
+update help_topic set linked_departments = '11,15,16,17' where id =  55;
+update help_topic set linked_departments = '11,15,16,17' where id =  56;
+update help_topic set linked_departments = '11,15,16,17' where id =  57;
+update help_topic set linked_departments = '11,15,16,17' where id =  58;
+update help_topic set linked_departments = '11,15,16,17' where id =  59;
+update help_topic set linked_departments = '11,15,16,17' where id =  60;
+update help_topic set linked_departments = '11,15,16,17' where id =  61;
+update help_topic set linked_departments = '11,15,16,17' where id =  62;
+update help_topic set linked_departments = '11,15,16,17' where id =  63;
+update help_topic set linked_departments = '11,15,16,17' where id =  64;
+update help_topic set linked_departments = '11,15,16,17' where id = 123;
+update help_topic set linked_departments = '11,15,16,17' where id = 126;
+update help_topic set linked_departments = '11,15,16,17' where id = 127;
+
+> continue seeding v_4_7_0 (takes time but runs)
+> continew seeding v_4_8_0
+> continew seeding v_4_9_0
+> continew seeding
+> seeder v_4_10_1 has syntac issue

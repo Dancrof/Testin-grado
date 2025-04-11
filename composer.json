@@ -1,0 +1,268 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ladybirdweb/php-imap.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ladybirdweb/laravel-gravatar.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ladybirdweb/pdf-laravel5.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ladybirdweb/clockwork.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ladybirdweb/laravel-plupload.git"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "vsmoraes/laravel-pdf": "dev-dev-laravel6",
+        "thomaswelton/laravel-gravatar": "dev-master",
+        "propaganistas/laravel-phone": "^5.2",
+        "neitanod/forceutf8": "dev-master",
+        "nicolaslopezj/searchable": "^1.13",
+        "madnest/madzipper": "^1.5",
+        "tymon/jwt-auth": "^2.1.0",
+        "barryvdh/laravel-debugbar": "^3.10",
+        "aws/aws-sdk-php": "^3.131",
+        "predis/predis": "^2.0",
+        "maatwebsite/excel": "3.1.*",
+        "laravel/socialite": "^5.11",
+        "tedivm/fetch": "^0.7",
+        "unisharp/laravel-filemanager": "2.8.1",
+        "guzzlehttp/guzzle": "^7.8",
+        "flowjs/flow-php-server": "^1.0",
+        "codedge/laravel-selfupdater": "^3.8",
+        "hashids/hashids": "^4.1",
+        "berkayk/onesignal-laravel": "^2.1",
+        "yajra/laravel-datatables-oracle": "^11.0.0",
+        "php-imap/php-imap": "dev-imap-faveo-build",
+        "nesbot/carbon": "^2.13",
+        "laravel/horizon": "^5.8",
+        "omnipay/paypal": "^3.0",
+        "laravel/helpers": "^1.7",
+        "bugsnag/bugsnag-laravel": "^v2.27.0",
+        "laravel/passport": "^12.0",
+        "php-ews/php-ews": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.23",
+        "mossadal/math-parser": "^1.3",
+        "mews/purifier": "^3.4",
+        "twilio/sdk": "^6.38",
+        "fico7489/laravel-pivot": "^3.0",
+        "pragmarx/google2fa-laravel": "^2.2.0",
+        "bacon/bacon-qr-code": "^2.0",
+        "league/oauth2-client": "^2.6",
+        "pusher/pusher-php-server": "^7.0",
+        "myclabs/deep-copy": "^1.11",
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "stechstudio/laravel-zipstream": "^4.14",
+        "lcobucci/jwt": "^4.0",
+        "barryvdh/laravel-snappy": "^1.0.3",
+        "yadahan/laravel-authentication-log": "^1.7",
+        "hisorange/browser-detect": "^4.5",
+        "laravel/ui": "^4.4",
+        "nunomaduro/collision": "^8.1",
+        "aacotroneo/laravel-saml2": "^2.1",
+        "faveo-helpdesk/laravel-cache": "^0.1.0",
+        "laravel/slack-notification-channel": "^3.2.0",
+        "league/html-to-markdown": "5.1.0",
+        "spatie/laravel-activitylog": "^4.8",
+        "laravel/scout": "^10.8",
+        "algolia/algoliasearch-client-php": "^3.4",
+        "meilisearch/meilisearch-php": "^1.5",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.3",
+        "php-http/guzzle7-adapter": "^1.0",
+        "spatie/browsershot": "5.0.3.0",
+        "torann/geoip": "^3.0.7",
+        "code-lts/laravel-fcm": "^1.8",
+        "spatie/laravel-html": "^3.11",
+        "diglactic/laravel-breadcrumbs": "^9.0",
+        "mremi/url-shortener": "^1.0",
+        "jildertmiedema/laravel-plupload": "dev-master",
+        "laravel/reverb": "^1.0",
+        "basis-company/nats": "^0.26.2",
+        "rybakit/msgpack": "^0.9.1",
+        "google-gemini-php/client": "^1.0",
+        "laravel/pulse": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "phpspec/phpspec": "^7.3",
+        "symfony/dom-crawler": "^7.0",
+        "symfony/css-selector": "^7.0",
+        "laravel/dusk": "^8.2",
+        "squizlabs/php_codesniffer": "^3.7",
+        "orchestra/testbench": "v9.6.1",
+        "filp/whoops": "^2.14",
+        "laravel/tinker": "^2.7",
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.4.4",
+        "spatie/laravel-ignition": "^2.4",
+        "laravel/pint": "^1.7",
+        "beyondcode/laravel-query-detector": "^2.0.0",
+        "itsgoingd/clockwork": "dev-master",
+        "codedungeon/phpunit-result-printer": "^0.1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Tests\\": "tests/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/DuskTestCase.php"
+        ],
+        "files": [
+            "tests/utilities/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "laravel/dusk",
+                "laravel/tinker",
+                "yadahan/laravel-authentication-log"
+            ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan clear-compiled"
+        ],
+        "post-update-cmd": [
+            "php artisan clear-compiled",
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-create-project-cmd": [
+            "php -r \"copy('.env.example', '.env');\"",
+            "php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ],
+        "filter-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --filter"
+        ],
+        "all-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "composer admin-test && composer agent-test && composer api-test && composer common-test && composer helper-test && composer middleware-test && composer model-test && composer request-test && composer seeder-test && composer trait-test && composer utility-test"
+        ],
+        "all-unit-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --testdox --testsuite unit"
+        ],
+        "backend-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -d display_errors=1 vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite admin,agent,auth,common,helper,middleware,model,sla,request,seeders,traits,utility,faveo-storage,client,plugins,modules"
+        ],
+        "admin-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite admin"
+        ],
+        "agent-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite agent"
+        ],
+        "auth-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite auth"
+        ],
+        "api-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite api"
+        ],
+        "common-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite common"
+        ],
+        "helper-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite helper"
+        ],
+        "middleware-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite middleware"
+        ],
+        "model-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite model"
+        ],
+        "sla-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite sla"
+        ],
+        "request-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite request"
+        ],
+        "seeder-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite seeder"
+        ],
+        "trait-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite traits"
+        ],
+        "utility-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite utility"
+        ],
+        "ldap-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite ldap,azure-ad"
+        ],
+        "service-desk-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite service-desk"
+        ],
+        "department-status-link-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite department-status-link"
+        ],
+        "group-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --group"
+        ],
+        "language-migrate-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite language-migrate"
+        ],
+        "faveo-report-test": [
+            "Composer\\Config::disableProcessTimeout",
+            "php vendor/phpunit/phpunit/phpunit --colors=always --testdox --testsuite faveo-report"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "php-http/discovery": true
+        }
+    }
+}

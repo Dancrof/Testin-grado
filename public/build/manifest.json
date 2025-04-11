@@ -1,0 +1,1216 @@
+{
+  "AdminNavigationBar.css": {
+    "file": "v9.4.0.5/assets/AdminNavigationBar.css",
+    "src": "AdminNavigationBar.css"
+  },
+  "BarcodeModal.css": {
+    "file": "v9.4.0.5/assets/BarcodeModal.css",
+    "src": "BarcodeModal.css"
+  },
+  "Checkbox.css": {
+    "file": "v9.4.0.5/assets/Checkbox.css",
+    "src": "Checkbox.css"
+  },
+  "CurrencySelect.css": {
+    "file": "v9.4.0.5/assets/CurrencySelect.css",
+    "src": "CurrencySelect.css"
+  },
+  "DataTableActions.css": {
+    "file": "v9.4.0.5/assets/DataTableActions.css",
+    "src": "DataTableActions.css"
+  },
+  "EleaTicketThreadSummary.css": {
+    "file": "v9.4.0.5/assets/EleaTicketThreadSummary.css",
+    "src": "EleaTicketThreadSummary.css"
+  },
+  "FileManager.css": {
+    "file": "v9.4.0.5/assets/FileManager.css",
+    "src": "FileManager.css"
+  },
+  "FormGenerator.css": {
+    "file": "v9.4.0.5/assets/FormGenerator.css",
+    "src": "FormGenerator.css"
+  },
+  "HelpSection.css": {
+    "file": "v9.4.0.5/assets/HelpSection.css",
+    "src": "HelpSection.css"
+  },
+  "Loader.css": {
+    "file": "v9.4.0.5/assets/Loader.css",
+    "src": "Loader.css"
+  },
+  "PermaLink.css": {
+    "file": "v9.4.0.5/assets/PermaLink.css",
+    "src": "PermaLink.css"
+  },
+  "SDReports.css": {
+    "file": "v9.4.0.5/assets/SDReports.css",
+    "src": "SDReports.css"
+  },
+  "TaskActionButtons.css": {
+    "file": "v9.4.0.5/assets/TaskActionButtons.css",
+    "src": "TaskActionButtons.css"
+  },
+  "_AdminNavigationBar.js": {
+    "css": [
+      "v9.4.0.5/assets/AdminNavigationBar.css"
+    ],
+    "file": "v9.4.0.5/chunks/AdminNavigationBar.js",
+    "imports": [
+      "_bootstrap.js",
+      "_vue-router.js"
+    ]
+  },
+  "_BarcodeModal.js": {
+    "css": [
+      "v9.4.0.5/assets/BarcodeModal.css"
+    ],
+    "file": "v9.4.0.5/chunks/BarcodeModal.js",
+    "imports": [
+      "_bootstrap.js",
+      "_DataTableActions.js"
+    ]
+  },
+  "_ChangeCustomFields.js": {
+    "file": "v9.4.0.5/chunks/ChangeCustomFields.js",
+    "imports": [
+      "_bootstrap.js",
+      "_FormGenerator.js"
+    ]
+  },
+  "_Checkbox.js": {
+    "css": [
+      "v9.4.0.5/assets/Checkbox.css"
+    ],
+    "file": "v9.4.0.5/chunks/Checkbox.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_CurrencySelect.js": {
+    "css": [
+      "v9.4.0.5/assets/CurrencySelect.css"
+    ],
+    "file": "v9.4.0.5/chunks/CurrencySelect.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_DataTableActions.js": {
+    "css": [
+      "v9.4.0.5/assets/DataTableActions.css"
+    ],
+    "file": "v9.4.0.5/chunks/DataTableActions.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_DataTableIsDefault.js": {
+    "file": "v9.4.0.5/chunks/DataTableIsDefault.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_EleaTicketThreadSummary.js": {
+    "css": [
+      "v9.4.0.5/assets/EleaTicketThreadSummary.css"
+    ],
+    "file": "v9.4.0.5/chunks/EleaTicketThreadSummary.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_FileManager.js": {
+    "css": [
+      "v9.4.0.5/assets/FileManager.css"
+    ],
+    "file": "v9.4.0.5/chunks/FileManager.js",
+    "imports": [
+      "_bootstrap.js",
+      "_DataTableActions.js"
+    ]
+  },
+  "_FormGenerator.js": {
+    "css": [
+      "v9.4.0.5/assets/FormGenerator.css"
+    ],
+    "file": "v9.4.0.5/chunks/FormGenerator.js",
+    "imports": [
+      "_bootstrap.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_vue-router.js"
+    ]
+  },
+  "_HelpSection.js": {
+    "css": [
+      "v9.4.0.5/assets/HelpSection.css"
+    ],
+    "file": "v9.4.0.5/chunks/HelpSection.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_Loader.js": {
+    "css": [
+      "v9.4.0.5/assets/Loader.css"
+    ],
+    "file": "v9.4.0.5/chunks/Loader.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_PermaLink.js": {
+    "css": [
+      "v9.4.0.5/assets/PermaLink.css"
+    ],
+    "file": "v9.4.0.5/chunks/PermaLink.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_SDReports.js": {
+    "css": [
+      "v9.4.0.5/assets/SDReports.css"
+    ],
+    "file": "v9.4.0.5/chunks/SDReports.js",
+    "imports": [
+      "_bootstrap.js",
+      "_agentRouter.js",
+      "_FormGenerator.js",
+      "_DataTableActions.js",
+      "_PermaLink.js",
+      "_Checkbox.js",
+      "_ChangeCustomFields.js",
+      "_vue-router.js"
+    ]
+  },
+  "_TaskActionButtons.js": {
+    "css": [
+      "v9.4.0.5/assets/TaskActionButtons.css"
+    ],
+    "file": "v9.4.0.5/chunks/TaskActionButtons.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_VueStarRating.common.js": {
+    "file": "v9.4.0.5/chunks/VueStarRating.common.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_adminRouter.js": {
+    "css": [
+      "v9.4.0.5/assets/adminRouter.css"
+    ],
+    "file": "v9.4.0.5/chunks/adminRouter.js",
+    "imports": [
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_HelpSection.js",
+      "_bootstrap.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_DataTableActions.js"
+    ]
+  },
+  "_agentRouter.js": {
+    "css": [
+      "v9.4.0.5/assets/agentRouter.css"
+    ],
+    "file": "v9.4.0.5/chunks/agentRouter.js",
+    "imports": [
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_HelpSection.js",
+      "_bootstrap.js",
+      "_DataTableActions.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_Loader.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_EleaTicketThreadSummary.js",
+      "_PermaLink.js"
+    ]
+  },
+  "_approvalTicketRules.js": {
+    "css": [
+      "v9.4.0.5/assets/approvalTicketRules.css"
+    ],
+    "file": "v9.4.0.5/chunks/approvalTicketRules.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_bootstrap.js": {
+    "assets": [
+      "v9.4.0.5/assets/flags.webp",
+      "v9.4.0.5/assets/flags@2x.webp",
+      "v9.4.0.5/assets/globe.webp",
+      "v9.4.0.5/assets/globe@2x.webp"
+    ],
+    "css": [
+      "v9.4.0.5/assets/bootstrap.css"
+    ],
+    "file": "v9.4.0.5/chunks/bootstrap.js"
+  },
+  "_clientRouter.js": {
+    "css": [
+      "v9.4.0.5/assets/clientRouter.css"
+    ],
+    "file": "v9.4.0.5/chunks/clientRouter.js",
+    "imports": [
+      "_vue-router.js",
+      "_bootstrap.js",
+      "_DataTableActions.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_Checkbox.js",
+      "_index.js"
+    ]
+  },
+  "_index.js": {
+    "file": "v9.4.0.5/chunks/index.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "_vue-router.js": {
+    "file": "v9.4.0.5/chunks/vue-router.js",
+    "imports": [
+      "_bootstrap.js"
+    ]
+  },
+  "adminRouter.css": {
+    "file": "v9.4.0.5/assets/adminRouter.css",
+    "src": "adminRouter.css"
+  },
+  "agentRouter.css": {
+    "file": "v9.4.0.5/assets/agentRouter.css",
+    "src": "agentRouter.css"
+  },
+  "app/AutoAssign/views/js/autoAssign.js": {
+    "file": "v9.4.0.5/entry/autoAssign.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/AutoAssign/views/js/autoAssign.js"
+  },
+  "app/Bill/views/js/systemBilling.css": {
+    "file": "v9.4.0.5/assets/systemBilling.css",
+    "src": "app/Bill/views/js/systemBilling.css"
+  },
+  "app/Bill/views/js/systemBilling.js": {
+    "css": [
+      "v9.4.0.5/assets/systemBilling.css"
+    ],
+    "file": "v9.4.0.5/entry/systemBilling.js",
+    "imports": [
+      "_bootstrap.js",
+      "_agentRouter.js",
+      "_vue-router.js",
+      "_DataTableActions.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_CurrencySelect.js",
+      "_DataTableIsDefault.js",
+      "_HelpSection.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_Loader.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_EleaTicketThreadSummary.js",
+      "_PermaLink.js"
+    ],
+    "isEntry": true,
+    "src": "app/Bill/views/js/systemBilling.js"
+  },
+  "app/FaveoLog/views/js/systemLog.css": {
+    "file": "v9.4.0.5/assets/systemLog.css",
+    "src": "app/FaveoLog/views/js/systemLog.css"
+  },
+  "app/FaveoLog/views/js/systemLog.js": {
+    "css": [
+      "v9.4.0.5/assets/systemLog.css"
+    ],
+    "file": "v9.4.0.5/entry/systemLog.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/FaveoLog/views/js/systemLog.js"
+  },
+  "app/FaveoModule/views/js/optimizeModules.css": {
+    "file": "v9.4.0.5/assets/optimizeModules.css",
+    "src": "app/FaveoModule/views/js/optimizeModules.css"
+  },
+  "app/FaveoModule/views/js/optimizeModules.js": {
+    "css": [
+      "v9.4.0.5/assets/optimizeModules.css"
+    ],
+    "file": "v9.4.0.5/entry/optimizeModules.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_DataTableActions.js"
+    ],
+    "isEntry": true,
+    "src": "app/FaveoModule/views/js/optimizeModules.js"
+  },
+  "app/FaveoReport/views/js/systemReport.css": {
+    "file": "v9.4.0.5/assets/systemReport.css",
+    "src": "app/FaveoReport/views/js/systemReport.css"
+  },
+  "app/FaveoReport/views/js/systemReport.js": {
+    "css": [
+      "v9.4.0.5/assets/systemReport.css"
+    ],
+    "file": "v9.4.0.5/entry/systemReport.js",
+    "imports": [
+      "_bootstrap.js",
+      "_agentRouter.js",
+      "_SDReports.js",
+      "_FormGenerator.js",
+      "_DataTableActions.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_Loader.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_EleaTicketThreadSummary.js",
+      "_PermaLink.js",
+      "_ChangeCustomFields.js"
+    ],
+    "isEntry": true,
+    "src": "app/FaveoReport/views/js/systemReport.js"
+  },
+  "app/Health/views/js/healthCheck.css": {
+    "file": "v9.4.0.5/assets/healthCheck.css",
+    "src": "app/Health/views/js/healthCheck.css"
+  },
+  "app/Health/views/js/healthCheck.js": {
+    "css": [
+      "v9.4.0.5/assets/healthCheck.css"
+    ],
+    "file": "v9.4.0.5/entry/healthCheck.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_DataTableActions.js"
+    ],
+    "isEntry": true,
+    "src": "app/Health/views/js/healthCheck.js"
+  },
+  "app/Location/views/js/systemLocation.js": {
+    "file": "v9.4.0.5/entry/systemLocation.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Location/views/js/systemLocation.js"
+  },
+  "app/Notify/views/js/notify.css": {
+    "file": "v9.4.0.5/assets/notify.css",
+    "src": "app/Notify/views/js/notify.css"
+  },
+  "app/Notify/views/js/notify.js": {
+    "css": [
+      "v9.4.0.5/assets/notify.css"
+    ],
+    "file": "v9.4.0.5/entry/notify.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_FormGenerator.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js"
+    ],
+    "isEntry": true,
+    "src": "app/Notify/views/js/notify.js"
+  },
+  "app/Plugins/AdHocApproval/views/js/adHocApproval.js": {
+    "file": "plugins/AdHocApproval/v1.0.3/entry/adHocApproval.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/AdHocApproval/views/js/adHocApproval.js"
+  },
+  "app/Plugins/AllianceCRM/views/js/allianceCRM.css": {
+    "file": "plugins/AllianceCRM/v2.2.0/assets/allianceCRM.css",
+    "src": "app/Plugins/AllianceCRM/views/js/allianceCRM.css"
+  },
+  "app/Plugins/AllianceCRM/views/js/allianceCRM.js": {
+    "css": [
+      "plugins/AllianceCRM/v2.2.0/assets/allianceCRM.css"
+    ],
+    "file": "plugins/AllianceCRM/v2.2.0/entry/allianceCRM.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/AllianceCRM/views/js/allianceCRM.js"
+  },
+  "app/Plugins/AttachmentScanner/views/js/AttachmentScanner.js": {
+    "file": "plugins/AttachmentScanner/v0.1.0/entry/AttachmentScanner.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/AttachmentScanner/views/js/AttachmentScanner.js"
+  },
+  "app/Plugins/AzureActiveDirectory/views/js/azureActiveDirectory.css": {
+    "file": "plugins/AzureActiveDirectory/v1.0.0/assets/azureActiveDirectory.css",
+    "src": "app/Plugins/AzureActiveDirectory/views/js/azureActiveDirectory.css"
+  },
+  "app/Plugins/AzureActiveDirectory/views/js/azureActiveDirectory.js": {
+    "css": [
+      "plugins/AzureActiveDirectory/v1.0.0/assets/azureActiveDirectory.css"
+    ],
+    "file": "plugins/AzureActiveDirectory/v1.0.0/entry/azureActiveDirectory.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/AzureActiveDirectory/views/js/azureActiveDirectory.js"
+  },
+  "app/Plugins/CRTWorkflow/views/js/crtWorkflow.js": {
+    "file": "plugins/CRTWorkflow/v1.0.0/entry/crtWorkflow.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/CRTWorkflow/views/js/crtWorkflow.js"
+  },
+  "app/Plugins/Calendar/views/js/calendar.css": {
+    "file": "plugins/Calendar/v1.4.1/assets/calendar.css",
+    "src": "app/Plugins/Calendar/views/js/calendar.css"
+  },
+  "app/Plugins/Calendar/views/js/calendar.js": {
+    "css": [
+      "plugins/Calendar/v1.4.1/assets/calendar.css"
+    ],
+    "file": "plugins/Calendar/v1.4.1/entry/calendar.js",
+    "imports": [
+      "_bootstrap.js",
+      "_agentRouter.js",
+      "_vue-router.js",
+      "_TaskActionButtons.js",
+      "_DataTableActions.js",
+      "_ChangeCustomFields.js",
+      "_PermaLink.js",
+      "_FormGenerator.js",
+      "_adminRouter.js",
+      "_HelpSection.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_Loader.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_EleaTicketThreadSummary.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Calendar/views/js/calendar.js"
+  },
+  "app/Plugins/Chat/views/js/chat.css": {
+    "file": "v9.4.0.5/assets/chat.css",
+    "src": "app/Plugins/Chat/views/js/chat.css"
+  },
+  "app/Plugins/Chat/views/js/chat.js": {
+    "css": [
+      "v9.4.0.5/assets/chat.css"
+    ],
+    "file": "plugins/Chat/v3.0.1/entry/chat.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Chat/views/js/chat.js"
+  },
+  "app/Plugins/CustomCSS/views/js/customCss.js": {
+    "file": "plugins/CustomCSS/v1.0.0/entry/customCss.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/CustomCSS/views/js/customCss.js"
+  },
+  "app/Plugins/CustomJs/views/js/customJs.js": {
+    "file": "plugins/CustomJs/v3.1.1/entry/customJs.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/CustomJs/views/js/customJs.js"
+  },
+  "app/Plugins/CustomLanguage/views/js/customLang.js": {
+    "file": "plugins/CustomLanguage/v1.0.0/entry/customLang.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/CustomLanguage/views/js/customLang.js"
+  },
+  "app/Plugins/DataArchive/views/js/dataArchive.css": {
+    "file": "plugins/DataArchive/v1.2.0/assets/dataArchive.css",
+    "src": "app/Plugins/DataArchive/views/js/dataArchive.css"
+  },
+  "app/Plugins/DataArchive/views/js/dataArchive.js": {
+    "css": [
+      "plugins/DataArchive/v1.2.0/assets/dataArchive.css"
+    ],
+    "file": "plugins/DataArchive/v1.2.0/entry/dataArchive.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_DataTableActions.js",
+      "_FormGenerator.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/DataArchive/views/js/dataArchive.js"
+  },
+  "app/Plugins/DepartmentStatusLink/views/js/departmentStatus.js": {
+    "file": "plugins/DepartmentStatusLink/v1.0.0/entry/departmentStatus.js",
+    "imports": [
+      "_bootstrap.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/DepartmentStatusLink/views/js/departmentStatus.js"
+  },
+  "app/Plugins/EleaAssistant/views/js/eleaAssistant.css": {
+    "file": "plugins/EleaAssistant/v0.1.0/assets/eleaAssistant.css",
+    "src": "app/Plugins/EleaAssistant/views/js/eleaAssistant.css"
+  },
+  "app/Plugins/EleaAssistant/views/js/eleaAssistant.js": {
+    "css": [
+      "plugins/EleaAssistant/v0.1.0/assets/eleaAssistant.css"
+    ],
+    "file": "plugins/EleaAssistant/v0.1.0/entry/eleaAssistant.js",
+    "imports": [
+      "_bootstrap.js",
+      "_AdminNavigationBar.js",
+      "_vue-router.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_EleaTicketThreadSummary.js",
+      "_HelpSection.js",
+      "_Checkbox.js",
+      "_DataTableActions.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/EleaAssistant/views/js/eleaAssistant.js"
+  },
+  "app/Plugins/Facebook/views/js/facebook.css": {
+    "file": "plugins/Facebook/v2.1.0/assets/facebook.css",
+    "src": "app/Plugins/Facebook/views/js/facebook.css"
+  },
+  "app/Plugins/Facebook/views/js/facebook.js": {
+    "css": [
+      "plugins/Facebook/v2.1.0/assets/facebook.css"
+    ],
+    "file": "plugins/Facebook/v2.1.0/entry/facebook.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Facebook/views/js/facebook.js"
+  },
+  "app/Plugins/FaveoRedaction/views/js/faveoRedaction.css": {
+    "file": "plugins/FaveoRedaction/v1.0.2/assets/faveoRedaction.css",
+    "src": "app/Plugins/FaveoRedaction/views/js/faveoRedaction.css"
+  },
+  "app/Plugins/FaveoRedaction/views/js/faveoRedaction.js": {
+    "css": [
+      "plugins/FaveoRedaction/v1.0.2/assets/faveoRedaction.css"
+    ],
+    "file": "plugins/FaveoRedaction/v1.0.2/entry/faveoRedaction.js",
+    "imports": [
+      "_bootstrap.js",
+      "_Checkbox.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/FaveoRedaction/views/js/faveoRedaction.js"
+  },
+  "app/Plugins/Instagram/views/js/instagram.css": {
+    "file": "plugins/Instagram/v1.0.0/assets/instagram.css",
+    "src": "app/Plugins/Instagram/views/js/instagram.css"
+  },
+  "app/Plugins/Instagram/views/js/instagram.js": {
+    "css": [
+      "plugins/Instagram/v1.0.0/assets/instagram.css"
+    ],
+    "file": "plugins/Instagram/v1.0.0/entry/instagram.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Instagram/views/js/instagram.js"
+  },
+  "app/Plugins/Ldap/views/js/ldap.css": {
+    "file": "plugins/Ldap/v2.3.3/assets/ldap.css",
+    "src": "app/Plugins/Ldap/views/js/ldap.css"
+  },
+  "app/Plugins/Ldap/views/js/ldap.js": {
+    "css": [
+      "plugins/Ldap/v2.3.3/assets/ldap.css"
+    ],
+    "file": "plugins/Ldap/v2.3.3/entry/ldap.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_DataTableIsDefault.js",
+      "_Checkbox.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Ldap/views/js/ldap.js"
+  },
+  "app/Plugins/LimeSurvey/views/js/limesurvey.js": {
+    "file": "plugins/LimeSurvey/v1.1.1/entry/limesurvey.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/LimeSurvey/views/js/limesurvey.js"
+  },
+  "app/Plugins/Line/views/js/line.css": {
+    "file": "plugins/Line/v0.2.0/assets/line.css",
+    "src": "app/Plugins/Line/views/js/line.css"
+  },
+  "app/Plugins/Line/views/js/line.js": {
+    "css": [
+      "plugins/Line/v0.2.0/assets/line.css"
+    ],
+    "file": "plugins/Line/v0.2.0/entry/line.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_FormGenerator.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Line/views/js/line.js"
+  },
+  "app/Plugins/RemoteDesktop/views/js/remoteDesktop.css": {
+    "file": "plugins/RemoteDesktop/v1.0.0/assets/remoteDesktop.css",
+    "src": "app/Plugins/RemoteDesktop/views/js/remoteDesktop.css"
+  },
+  "app/Plugins/RemoteDesktop/views/js/remoteDesktop.js": {
+    "css": [
+      "plugins/RemoteDesktop/v1.0.0/assets/remoteDesktop.css"
+    ],
+    "file": "plugins/RemoteDesktop/v1.0.0/entry/remoteDesktop.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/RemoteDesktop/views/js/remoteDesktop.js"
+  },
+  "app/Plugins/SMS/views/js/sms.css": {
+    "file": "plugins/SMS/v2.2.1/assets/sms.css",
+    "src": "app/Plugins/SMS/views/js/sms.css"
+  },
+  "app/Plugins/SMS/views/js/sms.js": {
+    "css": [
+      "plugins/SMS/v2.2.1/assets/sms.css"
+    ],
+    "file": "plugins/SMS/v2.2.1/entry/sms.js",
+    "imports": [
+      "_bootstrap.js",
+      "_clientRouter.js",
+      "_PermaLink.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_DataTableActions.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_Checkbox.js",
+      "_index.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/SMS/views/js/sms.js"
+  },
+  "app/Plugins/ServiceDesk/views/js/serviceDesk.css": {
+    "file": "plugins/ServiceDesk/v9.3.2.RC.1/assets/serviceDesk.css",
+    "src": "app/Plugins/ServiceDesk/views/js/serviceDesk.css"
+  },
+  "app/Plugins/ServiceDesk/views/js/serviceDesk.js": {
+    "css": [
+      "plugins/ServiceDesk/v9.3.2.RC.1/assets/serviceDesk.css"
+    ],
+    "file": "plugins/ServiceDesk/v9.3.2.RC.1/entry/serviceDesk.js",
+    "imports": [
+      "_bootstrap.js",
+      "_vue-router.js",
+      "_Checkbox.js",
+      "_SDReports.js",
+      "_clientRouter.js",
+      "_agentRouter.js",
+      "_DataTableActions.js",
+      "_FormGenerator.js",
+      "_Loader.js",
+      "_ChangeCustomFields.js",
+      "_TaskActionButtons.js",
+      "_adminRouter.js",
+      "_CurrencySelect.js",
+      "_PermaLink.js",
+      "_approvalTicketRules.js",
+      "_BarcodeModal.js",
+      "_index.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_EleaTicketThreadSummary.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/ServiceDesk/views/js/serviceDesk.js"
+  },
+  "app/Plugins/Slack/views/js/slack.js": {
+    "file": "plugins/Slack/v1.0.0/entry/slack.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Slack/views/js/slack.js"
+  },
+  "app/Plugins/SmartBonding/views/js/SmartBonding.css": {
+    "file": "plugins/SmartBonding/v0.2.0/assets/SmartBonding.css",
+    "src": "app/Plugins/SmartBonding/views/js/SmartBonding.css"
+  },
+  "app/Plugins/SmartBonding/views/js/SmartBonding.js": {
+    "css": [
+      "plugins/SmartBonding/v0.2.0/assets/SmartBonding.css"
+    ],
+    "file": "plugins/SmartBonding/v0.2.0/entry/SmartBonding.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/SmartBonding/views/js/SmartBonding.js"
+  },
+  "app/Plugins/Telephony/views/js/telephony.css": {
+    "file": "plugins/Telephony/v3.0.1/assets/telephony.css",
+    "src": "app/Plugins/Telephony/views/js/telephony.css"
+  },
+  "app/Plugins/Telephony/views/js/telephony.js": {
+    "css": [
+      "plugins/Telephony/v3.0.1/assets/telephony.css"
+    ],
+    "file": "plugins/Telephony/v3.0.1/entry/telephony.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Telephony/views/js/telephony.js"
+  },
+  "app/Plugins/TicketArchive/views/js/TicketArchive.js": {
+    "file": "plugins/TicketArchive/v0.0.0/entry/TicketArchive.js",
+    "isEntry": true,
+    "src": "app/Plugins/TicketArchive/views/js/TicketArchive.js"
+  },
+  "app/Plugins/Twitter/views/js/twitter.css": {
+    "file": "plugins/Twitter/v1.0.3/assets/twitter.css",
+    "src": "app/Plugins/Twitter/views/js/twitter.css"
+  },
+  "app/Plugins/Twitter/views/js/twitter.js": {
+    "css": [
+      "plugins/Twitter/v1.0.3/assets/twitter.css"
+    ],
+    "file": "plugins/Twitter/v1.0.3/entry/twitter.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Twitter/views/js/twitter.js"
+  },
+  "app/Plugins/Whatsapp/views/js/whatsapp.css": {
+    "file": "plugins/Whatsapp/v2.0.0/assets/whatsapp.css",
+    "src": "app/Plugins/Whatsapp/views/js/whatsapp.css"
+  },
+  "app/Plugins/Whatsapp/views/js/whatsapp.js": {
+    "css": [
+      "plugins/Whatsapp/v2.0.0/assets/whatsapp.css"
+    ],
+    "file": "plugins/Whatsapp/v2.0.0/entry/whatsapp.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_DataTableActions.js",
+      "_FormGenerator.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Whatsapp/views/js/whatsapp.js"
+  },
+  "app/Plugins/Zendesk/views/js/zendesk.js": {
+    "file": "plugins/Zendesk/v1.0.0/entry/zendesk.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_vue-router.js",
+      "_FormGenerator.js",
+      "_AdminNavigationBar.js",
+      "_DataTableActions.js",
+      "_Checkbox.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "app/Plugins/Zendesk/views/js/zendesk.js"
+  },
+  "app/TimeTrack/resources/views/js/timeTrack.css": {
+    "file": "v9.4.0.5/assets/timeTrack.css",
+    "src": "app/TimeTrack/resources/views/js/timeTrack.css"
+  },
+  "app/TimeTrack/resources/views/js/timeTrack.js": {
+    "css": [
+      "v9.4.0.5/assets/timeTrack.css"
+    ],
+    "file": "v9.4.0.5/entry/timeTrack.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_FormGenerator.js",
+      "_Checkbox.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js"
+    ],
+    "isEntry": true,
+    "src": "app/TimeTrack/resources/views/js/timeTrack.js"
+  },
+  "approvalTicketRules.css": {
+    "file": "v9.4.0.5/assets/approvalTicketRules.css",
+    "src": "approvalTicketRules.css"
+  },
+  "bootstrap.css": {
+    "file": "v9.4.0.5/assets/bootstrap.css",
+    "src": "bootstrap.css"
+  },
+  "clientRouter.css": {
+    "file": "v9.4.0.5/assets/clientRouter.css",
+    "src": "clientRouter.css"
+  },
+  "node_modules/intl-tel-input/build/img/flags.webp": {
+    "file": "v9.4.0.5/assets/flags.webp",
+    "src": "node_modules/intl-tel-input/build/img/flags.webp"
+  },
+  "node_modules/intl-tel-input/build/img/flags@2x.webp": {
+    "file": "v9.4.0.5/assets/flags@2x.webp",
+    "src": "node_modules/intl-tel-input/build/img/flags@2x.webp"
+  },
+  "node_modules/intl-tel-input/build/img/globe.webp": {
+    "file": "v9.4.0.5/assets/globe.webp",
+    "src": "node_modules/intl-tel-input/build/img/globe.webp"
+  },
+  "node_modules/intl-tel-input/build/img/globe@2x.webp": {
+    "file": "v9.4.0.5/assets/globe@2x.webp",
+    "src": "node_modules/intl-tel-input/build/img/globe@2x.webp"
+  },
+  "resources/assets/js/admin.css": {
+    "file": "v9.4.0.5/assets/admin.css",
+    "src": "resources/assets/js/admin.css"
+  },
+  "resources/assets/js/admin.js": {
+    "css": [
+      "v9.4.0.5/assets/admin.css"
+    ],
+    "file": "v9.4.0.5/entry/admin.js",
+    "imports": [
+      "_bootstrap.js",
+      "_adminRouter.js",
+      "_BarcodeModal.js",
+      "_FileManager.js",
+      "_FormGenerator.js",
+      "_Loader.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_HelpSection.js",
+      "_AdminNavigationBar.js",
+      "_Checkbox.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/admin.js"
+  },
+  "resources/assets/js/agent.css": {
+    "file": "v9.4.0.5/assets/agent.css",
+    "src": "resources/assets/js/agent.css"
+  },
+  "resources/assets/js/agent.js": {
+    "css": [
+      "v9.4.0.5/assets/agent.css"
+    ],
+    "file": "v9.4.0.5/entry/agent.js",
+    "imports": [
+      "_bootstrap.js",
+      "_VueStarRating.common.js",
+      "_BarcodeModal.js",
+      "_FileManager.js",
+      "_FormGenerator.js",
+      "_Loader.js",
+      "_DataTableActions.js",
+      "_agentRouter.js",
+      "_AdminNavigationBar.js",
+      "_vue-router.js",
+      "_Checkbox.js",
+      "_HelpSection.js",
+      "_approvalTicketRules.js",
+      "_EleaTicketThreadSummary.js",
+      "_PermaLink.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/agent.js"
+  },
+  "resources/assets/js/app.css": {
+    "file": "v9.4.0.5/assets/app.css",
+    "src": "resources/assets/js/app.css"
+  },
+  "resources/assets/js/app.js": {
+    "css": [
+      "v9.4.0.5/assets/app.css"
+    ],
+    "file": "v9.4.0.5/entry/app.js",
+    "imports": [
+      "_bootstrap.js",
+      "_VueStarRating.common.js",
+      "_clientRouter.js",
+      "_BarcodeModal.js",
+      "_FileManager.js",
+      "_DataTableActions.js",
+      "_vue-router.js",
+      "_approvalTicketRules.js",
+      "_Checkbox.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/app.js"
+  },
+  "resources/assets/js/chatWidget.css": {
+    "file": "v9.4.0.5/assets/chatWidget.css",
+    "src": "resources/assets/js/chatWidget.css"
+  },
+  "resources/assets/js/chatWidget.js": {
+    "css": [
+      "v9.4.0.5/assets/chatWidget.css"
+    ],
+    "file": "v9.4.0.5/entry/chatWidget.js",
+    "imports": [
+      "_bootstrap.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/chatWidget.js"
+  },
+  "resources/assets/js/headerMenu.css": {
+    "file": "v9.4.0.5/assets/headerMenu.css",
+    "src": "resources/assets/js/headerMenu.css"
+  },
+  "resources/assets/js/headerMenu.js": {
+    "css": [
+      "v9.4.0.5/assets/headerMenu.css"
+    ],
+    "file": "v9.4.0.5/entry/headerMenu.js",
+    "imports": [
+      "_bootstrap.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/headerMenu.js"
+  },
+  "resources/assets/js/helpwidget.js": {
+    "file": "v9.4.0.5/entry/helpwidget.js",
+    "imports": [
+      "_bootstrap.js",
+      "_HelpSection.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/helpwidget.js"
+  },
+  "resources/assets/js/navigation.js": {
+    "file": "v9.4.0.5/entry/navigation.js",
+    "imports": [
+      "_bootstrap.js",
+      "_AdminNavigationBar.js",
+      "_vue-router.js"
+    ],
+    "isEntry": true,
+    "src": "resources/assets/js/navigation.js"
+  }
+}
