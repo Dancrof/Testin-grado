@@ -1,0 +1,5 @@
+user_name;first_name;last_name;email;role;location;phone_number;department;department Manager;organization;OrganisationManager;
+ajas@gmail.com;Aja;Jak;ajas@gmail.com;user;Jammu;97979797;;;Tritel;Yes;
+Ben@gmail.com;Ben;Jack;Ben@gmail;user;Jammu;97998451;;;Tritel;;
+Joy@gmail.com;Joy;Jak;Joy@gmail.com;Agent;Jammu;97998451;Support;Yes;Tritel;;
+Craig@gmail.com;Craig;Jak;Craig@gmail.com;Agent;Jammu;97998451;Support;;Tritel;;
